@@ -5,9 +5,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Atividade tabelas</title>
 </head>
-<body>
+<body style="font-family: Arial, sans-serif;">
+
+    <style>
+        h1 {
+            font-size: 20px;
+        }
+        table {
+            border-collapse: collapse;
+            width: 500px;
+            text-align: center;
+        }
+        th, td {
+            border: 1px solid black;
+            height: 30%;
+            width: 30%;
+        }
+    </style>
+    
     <h1 style="font-size: 20px;">Desafio 1: Crie uma tabela de jogos</h1>
-    <table border="1" style="width: 500px; text-align: center;">
+    <table>
         <thead>
             <th>Jogo</th>
             <th>Plataforma</th>
@@ -32,7 +49,50 @@
         </tbody>
     </table>
      <br>
-     
-    <h1 style="font-size: 20px;">Desafio 2: Crie uma tabela de filmes</h1>
-</body>
-</html>
+
+    <h1 style="font-size: 20px;">Desafio 2: Crie um painel de estudos</h1>
+    <table>
+        <thead>
+            <th>Disciplina</th>
+            <th>Status</th>
+            <th>Prioridade</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Cálculo</td>
+                <td>Estudando</td>
+                <td>Alta</td>
+            </tr>
+            <tr>
+                <td>Programação</td>
+                <td>Revisando</td>
+                <td>Média</td>
+            </tr>
+            <tr>
+                <td colspan="3">PAUSA PARA REVISÃO</td>
+            </tr>
+        </tbody>
+    </table> 
+    <br>
+
+    <h1 style="font-size: 20px;">Desafio 3: Caça ao erro</h1>
+    <table>
+        <thead>
+            <th>Nome</th>
+            <th>Curso</th>
+            <th>Periodo</th>
+            <th>Situação</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Ana</td>
+                <td>ADS</td>
+                <td>2</td>
+                <td>Ativa</td>
+            </tr>
+            <tr>
+                <td colspan="4">MATRICULAS ENCERRADAS</td>
+            </tr>
+        </tbody>
+    </table> 
+    <br>
